@@ -38,3 +38,22 @@ This will generate a ```/dist``` folder that contains all artefacts for deployme
     * web-client - the user interface (AngularJS app)
     * common - utilities and language extensions that can be reused across all modules
     * tools - scripts and tools for managing data and deploying the application
+
+
+### Notes on Build on macOS Sierra
+
+This is in scripts.304c4f3c.js
+
+{apiUrl:"CANVASS_API_ELB_ENDPOINT",  
+
+and points off site to an AWS thing ???
+
+So, changin it to this.
+/api/canvass
+
+gets it almost working - or not. 
+
+File does not exist: /Users/robert/www/libdemnewbies/api/canvass/user/login, referer: https://libdemnewbies.uk/
+
+So I'm missing something here.
+
